@@ -9,4 +9,4 @@ NOTE: The schema is not able to handle data-* attributes due to limitations of t
 Validate XHTML5 files against `xhtml5_with_microdata.xsd` 
 
 ##Known issues
-Validation of arbitrary data-* attributes is not possible due to limitations by the W3C XML schema specification
+Validation of arbitrary data-* attributes is not possible due to limitations of the W3C XML schema specification
