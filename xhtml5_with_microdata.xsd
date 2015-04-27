@@ -39,13 +39,13 @@
     <xs:attributeGroup name="microdataAttributes">
         <xs:attribute name="itemscope" type="uri"/>
         <xs:attribute name="itemtype" type="string"/>
-        <xs:attribute name="itemprop" type="string"/>
-        <xs:attribute name="itemid" type="string"/>
+        <xs:attribute name="itemprop" type="nonEmptyToken"/>
+        <xs:attribute name="itemid" type="nonEmptyToken"/>
     </xs:attributeGroup>
 
     <xs:complexType name="metaInBody">
-        <xs:attribute name="itemprop" type="string" use="required"/>
-        <xs:attribute name="content" type="string" use="required"/>
+        <xs:attribute name="itemprop" type="nonEmptyToken" use="required"/>
+        <xs:attribute name="content" type="nonEmptyToken" use="required"/>
     </xs:complexType>
 
 </xs:schema>
